@@ -11,7 +11,7 @@ html{
     padding: 0;
 }
 
-body{ /*Declater e centralização dos botões*/
+body{ /*Declaração e centralização dos botões*/
     align-items: center;
     background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
     display: flex;
