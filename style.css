@@ -11,7 +11,7 @@ html{
     padding: 0;
 }
 
-body{
+body{ /*Declater e centralização dos botões*/
     align-items: center;
     background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
     display: flex;
@@ -21,7 +21,7 @@ body{
     justify-content: center;
 }
 
-.wrapper{
+.wrapper{ /*Fundo da calculadora*/
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     border-radius: 16px;
@@ -36,7 +36,7 @@ body{
     padding: 20px 35px;
 }
 
-.screen{
+.screen{ /*Tela do resultado*/
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
@@ -51,13 +51,13 @@ body{
     width: 326px;
 }
 
-.calc-button-row{
+.calc-button-row{ /*Espaçamento dos botões*/
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
 }
 
-.calc-button{
+.calc-button{ /*Aparencia dos botões*/
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
@@ -71,23 +71,23 @@ body{
     height: 65px;
 }
 
-.calc-button:last-child{
-        backdrop-filter: blur(5.5px);
-        -webkit-backdrop-filter: blur(5.5px);
-        background: rgba(255, 255, 255, 0.75);
-        border: 1px solid rgba(255, 255, 255, 0.01);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-        color: #fff;
-        background: #d72880;
+.calc-button:last-child{ /*Cor dos botões de função*/
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    background: #d72880;
 }
 
-.calc-button:last-child:hover{
+.calc-button:last-child:hover{ /*Efeito ao passar o mouse pelos botões de função*/
     background-color: inherit;
     color: inherit;
 }
 
-.calc-button:hover{
+.calc-button:hover{/*Efeito ao passar o mouse pelos botões de numéricos*/
     background-color: inherit;
 }
 
@@ -95,10 +95,10 @@ body{
     background-color: #ffef78;
 }
 
-.double{
+.double{ /*Alongamento do botão C*/
     flex-basis: 47%;
 }
 
-.triple{
+.triple{ /*Alongamento do botão 0*/
     flex-basis: 73%;
 }
